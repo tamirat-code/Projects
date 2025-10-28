@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: linear-gradient(120deg, #38ef7d, #11998e);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz-container{
+    width: 450px;
+    background: white;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+.time-left{
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+#time{
+    font-weight: bold;
+    color: #e63946;
+}
+
+#question{
+    font-size: 20px;
+    margin: 15px 0;
+    font-weight: bold;
+    color: #222;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.optionn{
+    padding: 12px;
+    border: none;
+    background: #f2f2f2;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+.optionn:hover{
+    background: #38ef7d;
+    color: white;
+}
+
+#result{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #222;
+}
+
+#restartbtn{
+    display: none;
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #11998e;
+    color: white;
+    border-radius: 25px;
+    transition: .3s;
+}
+
+#restartbtn:hover{
+    background: #0c7f6a;
+}
